@@ -60,7 +60,7 @@ aside {background:rgb(182, 180, 180); grid-area:a; }
 
 /* RODAPÉ */
 
-footer { background:#000021; grid-area:f;display:flex; justify-content: space-evenly;}
+footer { background:#242438; grid-area:f;display:flex; justify-content: space-evenly;}
 .redes-sociais { margin-top:16%;color:whitesmoke; margin-right:70px;}
 .redes-sociais h2 { padding-left:75px; padding-bottom: 50px; }
 .redes-sociais ul { display:flex;justify-content: space-evenly; list-style:none; }
@@ -70,6 +70,7 @@ footer { background:#000021; grid-area:f;display:flex; justify-content: space-ev
 .github a:hover { color:gray; border-color:gray; }
 .linkedin a { color:white; }
 .linkedin a:hover { color: dodgerblue; border-color:dodgerblue; }
-.contato { margin-top:5%; }
+.contato { margin-top:5%; color:white;}
+form .btn-primary:hover { background:#9c27b0; border-color:#9c27b0; }
 
 /* FIM - RODAPÉ */
