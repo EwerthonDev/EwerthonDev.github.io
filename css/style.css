@@ -72,6 +72,7 @@ footer { background:#242438; grid-area:f;display:flex; justify-content: space-ev
 .linkedin a { color:white; }
 .linkedin a:hover { color: dodgerblue; border-color:dodgerblue; }
 .contato { margin-top:5%; color:white;}
+.btn-primary { background:gray; border-color:gray; }
 form .btn-primary:hover { background:#9c27b0; border-color:#9c27b0; }
 .linha-vertical { height: 400px; border-left: 2px solid; border-color:white; margin-top:7%;}
 
