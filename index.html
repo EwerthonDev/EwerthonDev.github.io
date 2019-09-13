@@ -171,20 +171,20 @@
             <form action="http://formspree.io/lrewerthon@hotmail.com" method="POST">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de Email:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Digite seu Email:">
+                    <input name="name" type="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Digite seu Email:">
                     <small id="emailHelp" class="form-text text-muted">Não irei compartilhar seu email com mais
                         ninguém!</small>
                 </div>
                 <div class="form-group">
                     <label>Seu Nome:</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome:">
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome:" name="name">
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Digite sua mensagem:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="name"></textarea>
                 </div>
-                <a><button type="submit" class="btn btn-primary">Enviar</button></a>
+                <a><button type="submit" class="btn btn-primary" name="name">Enviar</button></a>
             </form>
         </div>
     </footer>
