@@ -35,11 +35,11 @@
     <nav class="grid grid-nav">
         <article class="itens">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Redes Sociais</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="darknesssoftware.github.io">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#redes-sociais">Redes Sociais</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </article>
     </nav>
@@ -96,8 +96,7 @@
 
     </div>
 
-    <main class="grid grid-main">
-
+    <main id="sobre" class="grid grid-main">
         <div class="sobre-mim">
             <article class="info2">
                 <hgroup>
@@ -105,13 +104,17 @@
                     <h4>Conheçam um pouco da minha história!</h4>
                 </hgroup>
                 <p>Meu nome é Ewerthon Silva de Moraes, tenho 19 anos de idade e sou estudante de Análise e
-                    Desenvolvimento de Sistemas na faculdade Anhanguera de Guarulhos - SP, assim que comecei a estudar
-                    programação, me apaixonei por Java e iniciei os estudos de Java SE, linguagem back-end na qual eu
+                    Desenvolvimento de Sistemas na faculdade Anhanguera de Guarulhos - SP, assim que comecei a
+                    estudar
+                    programação, me apaixonei por Java e iniciei os estudos de Java SE, linguagem back-end na qual
+                    eu
                     tenho mais conhecimento.<br>
-                    Após começar a estudar HTML e CSS, gostei tanto que por algum tempo me dediquei apenas ao front-end,
+                    Após começar a estudar HTML e CSS, gostei tanto que por algum tempo me dediquei apenas ao
+                    front-end,
                     assim segui para o JavaScript, aprendi muitas coisas e percebi que bastante coisa que aprendi em
                     Java era de facil assimilação com o JavaScript, assim aprendi HTML5 Semântico utilizando tags
-                    apropriadas para cada área do site, CSS Grid e Flexbox juntamente com JavaScript DOM events, estudei
+                    apropriadas para cada área do site, CSS Grid e Flexbox juntamente com JavaScript DOM events,
+                    estudei
                     MySQL na faculdade e tenho bons conhecimentos, estudei também XAMP, fiz alguns exemplos na
                     pratica.<br>
                     Procurei participar de algumas meetups de frontend, junto com meu amigo Diego Mendes, conhecemos
@@ -124,7 +127,7 @@
         </div>
     </main>
 
-    <aside class="grid grid-aside">
+    <aside id="portfolio" class="grid grid-aside">
         <div class="portfolio">
             <h2>Portfólio</h2>
             <figure class="card-group">
@@ -133,7 +136,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Template 1</h5>
                         <p class="card-text">Layout que fiz enquanto estudava HTML5 e CSS</p>
-                        <a href="phttps://darknesssoftware.github.io/portfolio.html" target="_blank"
+                        <a href="https://darknesssoftware.github.io/portfolio.html" target="_blank"
                             class="btn btn-primary">Veja o Código Fonte</a>
                     </div>
                 </div>
@@ -153,7 +156,7 @@
     </aside>
 
     <footer class="grid grid-footer">
-        <div class="redes-sociais">
+        <div id="redes-sociais" class="redes-sociais">
             <h2>Redes Sociais</h2>
             <article class="itens2">
                 <ul>
@@ -169,7 +172,7 @@
 
         <div class="linha-vertical"></div>
 
-        <div class="contato">
+        <div id="contato" class="contato">
             <h2>Contato</h2>
             <form method="POST" action="http://formspree.io/lrewerthon@hotmail.com">
                 <div class="form-group">
@@ -187,8 +190,10 @@
                     <label for="exampleFormControlTextarea1">Digite sua mensagem:</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Mensagem"></textarea>
                 </div>
-                <a><input type="submit" class="btn btn-primary" value="Enviar" target="_blank"></input></a>
                 <input type="hidden" name="_next" value="https://darknesssoftware.github.io/agradecimento.html" />
+                <a href="https://darknesssoftware.github.io/agradecimento.html" target="_blank"><input type="submit"
+                        class="btn btn-primary" value="Enviar"></input></a>
+
             </form>
         </div>
     </footer>

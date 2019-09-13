@@ -27,6 +27,7 @@ nav { background:#9c27b0; grid-area:n; position:sticky; top:0;}
 /* CONTEUDO */
 
 main { background:#424242; grid-area:m;color:WHITE;}
+main h2 { text-align:center; margin-top:20%; }
 
 /* FIM - CONTEUDO */
 
