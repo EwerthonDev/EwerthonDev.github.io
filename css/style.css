@@ -8,6 +8,7 @@
 
 /* FIM- GRID */
 body { position:relative; }
+html { scroll-behavior: smooth; }
 /* CABECALHO */
 
 header { background:#000021; grid-area:h; position:relative; }
