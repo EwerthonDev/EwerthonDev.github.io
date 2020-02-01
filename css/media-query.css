@@ -2,7 +2,7 @@
   
   /* GRID */
 
-#container { background:whitesmoke; display:grid; grid-template-rows: 250px 50px 1050px 970px 560px ;grid-template-areas: "h h h"
+#container { background:whitesmoke; display:grid; grid-template-rows: 250px 50px 1050px 970px 760px ;grid-template-areas: "h h h"
                                                                                                                   "n n n"
                                                                                                                 
                                                                                                                   "m m m"
@@ -43,8 +43,7 @@ main { background:#424242; grid-area:m; width:100vw;}
 /* SOBRE MIM */
 
 .info2 { background:rgb(182, 180, 180);padding: 10px;  border-radius:5px; margin:10% 40px 10% 40px; }
-.info2 hgroup { }
-.info2 hgroup p{ }
+
 
 /* FIM - SOBREM MIM*/
 
@@ -65,7 +64,7 @@ aside {background:rgb(182, 180, 180); grid-area:a; width:100vw; }
 
 /* RODAPÉ */
 
-footer { background:#242438; grid-area:f;display:flex; width:100vw; justify-content: space-evenly;}
+footer { background:#242438; grid-area:f; display:block; width:100vw; }
 .redes-sociais { margin-top:16%;color:whitesmoke; margin-right:70px;}
 .redes-sociais h2 { padding-left:75px; padding-bottom: 50px; }
 .redes-sociais ul { display:flex;justify-content: space-evenly; list-style:none; }
@@ -75,10 +74,10 @@ footer { background:#242438; grid-area:f;display:flex; width:100vw; justify-cont
 .github a:hover { color:gray; border-color:gray; }
 .linkedin a { color:white; }
 .linkedin a:hover { color: dodgerblue; border-color:dodgerblue; }
-.contato { margin-top:5%; color:white;}
+.contato { margin-top:5%; color:white;margin:23px;}
 form .btn-primary { display:flex;background:gray; border-color:gray; }
-form .btn-primary:hover { background:#9c27b0; border-color:#9c27b0; }
-.linha-vertical { height: 400px; border-left: 2px solid; border-color:white; margin-top:7%;}
+form .btn-primary:hover { background:#2b2a2b; border-color:#9c27b0; }
+.linha-vertical { width: 170px; border-bottom: 2px solid; border-color:white; margin:80px 0px 50px 95px;}
 
 /* FIM - RODAPÉ */
 }
