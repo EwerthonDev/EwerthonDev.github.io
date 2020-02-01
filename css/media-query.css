@@ -2,7 +2,7 @@
   
   /* GRID */
 
-#container { background:whitesmoke; display:grid; grid-template-rows: 250px 50px 1000px 970px 760px ;grid-template-areas: "h h h"
+#container { background:whitesmoke; display:grid; grid-template-rows: 260px 50px 1000px 970px 760px ;grid-template-areas: "h h h"
                                                                                                                   "n n n"
                                                                                                                 
                                                                                                                   "m m m"
