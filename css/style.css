@@ -1,6 +1,4 @@
-
-
-@media (min-width: 1281px) {
+@media (min-width:1090px) and (max-width:2000px){
   /* GRID */
 
 #container { background:whitesmoke; display:grid; grid-template-rows: 140px 50px 700px 95vh 560px ;grid-template-areas: "h h h"
@@ -27,6 +25,7 @@ nav { background:#9c27b0; grid-area:n; position:sticky; top:0;}
 .itens ul { display: flex; justify-content:space-evenly; letter-spacing: 1px; list-style:none;margin-top:10px; }
 .itens ul li a { color: #bda4e9; padding:13px; text-decoration:none;  }
 .itens ul li a:hover { color: whitesmoke; border-bottom:solid; border-color:whitesmoke; }
+.dropdown{ display:none; }
 /* FIM - CABECALHO */
 
 /* CONTEUDO */
@@ -78,7 +77,7 @@ footer { background:#242438; grid-area:f;display:flex; justify-content: space-ev
 .contato { margin-top:5%; color:white;}
 form .btn-primary { display:flex;background:gray; border-color:gray; }
 form .btn-primary:hover { background:#9c27b0; border-color:#9c27b0; }
-.linha-vertical { height: 400px; border-left: 2px solid; border-color:white; margin-top:7%;}
+
 
 /* FIM - RODAPÉ */
 }
