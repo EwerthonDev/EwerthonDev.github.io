@@ -1,0 +1,84 @@
+@media(max-width:360px){
+  
+  /* GRID */
+
+#container { background:whitesmoke; display:grid; grid-template-rows: 250px 50px 1050px 970px 560px ;grid-template-areas: "h h h"
+                                                                                                                  "n n n"
+                                                                                                                
+                                                                                                                  "m m m"
+                                                                                                                  "a a a"
+                                                                                                                  "f f f"        }
+
+/* FIM- GRID */
+body { position:relative; overflow:scroll; }
+html { scroll-behavior: smooth; }
+    
+    
+/* CABECALHO */
+header { background:#000021; grid-area:h; width:100vw; position:relative; }
+.logo { float:left;margin-left:85px; margin-top:20px; }
+.logo img { width: 185px; height:120px; }
+.info1 hgroup{ float:right; margin-right:42px;color:#bda4e9; margin-top:20px; text-align:center; letter-spacing: 1px; font-weight:normal;}
+.info1 hgroup h2 { font-size:15px; }
+.info1 a { color:#bda4e9; }
+.whats a:hover { color:rgb(7, 204, 7);text-decoration:none; }
+.email a:hover { color:rgb(69, 69, 209);text-decoration:none; }
+
+.itens ul { display: none; }
+nav { display:grid; background:#9c27b0; width:100vw; grid-area:n; position:sticky; top:0; }
+.dropdown button { margin-left:10px; background:#000021; }
+ .dropdown-item a:hover{ background:#000021 !important; }
+/* FIM - CABECALHO */
+
+/* CONTEUDO */
+
+main { background:#424242; grid-area:m; width:100vw;}
+/* SLIDER */
+
+.slide {display:none;}
+
+
+/* FIM - SLIDER */
+
+/* SOBRE MIM */
+
+.info2 { background:rgb(182, 180, 180);padding: 10px;  border-radius:5px; margin:10% 40px 10% 40px; }
+.info2 hgroup { }
+.info2 hgroup p{ }
+
+/* FIM - SOBREM MIM*/
+
+/* PORTFOLIO */
+
+aside {background:rgb(182, 180, 180); grid-area:a; width:100vw; }
+.card a { margin-right: 20px; }
+.card-group{ padding: 0 auto;;margin: 78px 40px 0px 40px; }
+.card { position: static;padding:10px;}
+.portfolio h2 { margin:78px 0 0 10px; position:static; text-align: center;}
+.btn-primary { margin-left: 20px;background:#424242; border-color:#424242; }
+.card-body a:hover { background:#9c27b0; border-color:#9c27b0 }
+.card-body { text-align:center; }
+
+/* FIM - PORTFOLIO */
+
+/* FIM - CONTEUDO */
+
+/* RODAPÉ */
+
+footer { background:#242438; grid-area:f;display:flex; width:100vw; justify-content: space-evenly;}
+.redes-sociais { margin-top:16%;color:whitesmoke; margin-right:70px;}
+.redes-sociais h2 { padding-left:75px; padding-bottom: 50px; }
+.redes-sociais ul { display:flex;justify-content: space-evenly; list-style:none; }
+.redes-sociais ul li a { padding:15px; margin-left:15px; border-style: solid; border-radius: 5px; }
+.redes-sociais ul li a:hover { text-decoration:none; }
+.github a { color:white; }
+.github a:hover { color:gray; border-color:gray; }
+.linkedin a { color:white; }
+.linkedin a:hover { color: dodgerblue; border-color:dodgerblue; }
+.contato { margin-top:5%; color:white;}
+form .btn-primary { display:flex;background:gray; border-color:gray; }
+form .btn-primary:hover { background:#9c27b0; border-color:#9c27b0; }
+.linha-vertical { height: 400px; border-left: 2px solid; border-color:white; margin-top:7%;}
+
+/* FIM - RODAPÉ */
+}
