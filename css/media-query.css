@@ -1,4 +1,7 @@
+
+
 @media(min-width:315px) and (max-width:359px){
+
   #container { background:whitesmoke; display:grid; grid-template-rows: 260px 50px 1000px 970px 840px ;grid-template-areas: "h h h"
     "n n n"
   
