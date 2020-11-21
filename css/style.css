@@ -26,9 +26,9 @@ nav div ul li { padding-right: 30px; }
     .slide {display:none;}    
 }
 main { background: gray; }
-main .sobre-mim { padding:15px; }
-main .info2 { background: lightgrey; border-radius: 5px; }
-
+main .sobre-mim { padding:15px; min-width: 100px;}
+main .info2 { background: lightgrey; border-radius: 5px; min-width: 100px; }
+.sobre-mim article {min-width: 100px;}
 aside { background: rgb(49, 48, 48); padding: 15px;}
 aside a { text-decoration: none;}
 aside ul { list-style: none; }
